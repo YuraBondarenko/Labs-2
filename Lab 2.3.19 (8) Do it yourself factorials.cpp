@@ -2,7 +2,7 @@
 using namespace std;
 int main() {
   int n;
-  Mitka:
+  M:
   cout<< "Введіть число:";
   cin>>n;
   if (n==0 || n==1){
@@ -17,7 +17,7 @@ int main() {
  }
 else{
   cout<<"Ви ввели не вірне число:"<<endl;
-  goto Mitka;
+  goto M;
 }
   return 0;
 }
